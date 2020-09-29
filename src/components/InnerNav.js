@@ -6,8 +6,9 @@ const NavContainer = styled(`div`)(({ theme }) => ({
 	flexFlow: `row nowrap`,
 	justifyContent: `space-between`,
 	alignItems: `flex-end`,
-	width: `inherit`,
+	width: theme.breakpoints.values.lg,
 	marginTop: 150,
+	position: `fixed`,
 }));
 
 const Nav = () => {
