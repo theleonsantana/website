@@ -55,13 +55,21 @@ const Theme = createMuiTheme({
 		].join(','),
 		h1: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
-			fontSize: '10rem',
+			fontSize: `10rem`,
 		},
 		h2: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
+			fontSize: `100px`,
 		},
 		h3: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
+		},
+		body1: {
+			fontSize: 25,
+		},
+		body2: {
+			fontFamily: ['DM Serif Display', 'serif'].join(','),
+			fontSize: 25,
 		},
 	},
 	// overrides: {
