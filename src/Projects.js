@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid } from '@material-ui/core';
+import { Container, Grid, Typography } from '@material-ui/core';
 import InnerNav from './components/InnerNav';
 
 const Projects = () => {
@@ -8,6 +8,7 @@ const Projects = () => {
 			<Grid container spacing={5}>
 				<InnerNav />
 			</Grid>
+			<Typography>Projects</Typography>
 		</Container>
 	);
 };
