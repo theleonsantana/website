@@ -8,7 +8,7 @@ const Projects = () => {
 			<Grid container spacing={5}>
 				<InnerNav />
 			</Grid>
-			<Typography>Projects</Typography>
+			<Typography>Projects Title</Typography>
 		</Container>
 	);
 };
