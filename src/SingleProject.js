@@ -23,11 +23,7 @@ const SingleProject = () => {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
 						rutrum elit vitae imperdiet commodo. Donec vitae egestas dolor. Nam
 						bibendum aliquam malesuada. Nulla et nisl felis. Fusce auctor nisi
-						justo, vitae condimentum lorem varius eu. Vivamus convallis, mi eget
-						luctus ultricies, augue turpis sagittis metus, vel auctor metus
-						sapien posuere quam. Vestibulum justo libero, consectetur et nisl
-						nec, fermentum ultrices diam. Sed enim mauris, mollis sit amet
-						dignissim vel, condimentum in ex.
+						justo, vitae condimentum lorem varius eu.
 					</Typography>
 					<Grid item container spacing={2}>
 						<Grid item md>
