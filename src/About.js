@@ -9,12 +9,18 @@ const ProfileImage = styled(`img`)(({ theme }) => ({
 	marginTop: 40,
 }));
 
+const ListContainer = styled(Grid)(({ theme }) => ({
+	'& *': {
+		marginBottom: 25,
+	},
+}));
+
 const About = () => {
 	return (
 		<Container maxWidth="lg" style={{ padding: 20 }}>
 			<Grid container spacing={5} justify="center">
 				<InnerNav />
-				<Grid item md={8} style={{ marginTop: 200 }}>
+				<Grid item md={8} style={{ marginTop: 200, marginBottom: 100 }}>
 					<Typography variant="h2" style={{ marginTop: 90 }}>
 						This is my story.
 					</Typography>
@@ -35,44 +41,50 @@ const About = () => {
 						nec, fermentum ultrices diam. Sed enim mauris, mollis sit amet
 						dignissim vel, condimentum in ex.
 					</Typography>
-					<Typography variant="body2" style={{ marginTop: 40 }}>
+					<Typography
+						variant="body2"
+						style={{ marginTop: 40, marginBottom: 25 }}
+					>
 						Development using:
 					</Typography>
 					<Grid item container>
-						<Grid item md>
+						<ListContainer item md>
 							<Typography>JavaScript</Typography>
 							<Typography>TypeScript</Typography>
 							<Typography>MaterialUI</Typography>
 							<Typography>SQL</Typography>
-						</Grid>
-						<Grid item md>
+						</ListContainer>
+						<ListContainer item md>
 							<Typography>React</Typography>
 							<Typography>Redux</Typography>
 							<Typography>Node</Typography>
 							<Typography>Postgresql</Typography>
-						</Grid>
-						<Grid item md>
+						</ListContainer>
+						<ListContainer item md>
 							<Typography>NPM / Yarn</Typography>
 							<Typography>AWS EC2</Typography>
 							<Typography>Git</Typography>
 							<Typography>WordPress PHP </Typography>
-						</Grid>
-						<Grid item md>
+						</ListContainer>
+						<ListContainer item md>
 							<Typography>Ruby</Typography>
 							<Typography>Rails</Typography>
-						</Grid>
+						</ListContainer>
 					</Grid>
-					<Typography variant="body2" style={{ marginTop: 40 }}>
+					<Typography
+						variant="body2"
+						style={{ marginTop: 40, marginBottom: 25 }}
+					>
 						Online profiles
 					</Typography>
-					<Grid item md container direction="column">
+					<ListContainer item md container direction="column">
 						<Link href="/about" color="secondary" variant="body1">
 							GitHub
 						</Link>
 						<Link href="/about" color="secondary" variant="body1">
 							LinkedIn
 						</Link>
-					</Grid>
+					</ListContainer>
 				</Grid>
 			</Grid>
 		</Container>

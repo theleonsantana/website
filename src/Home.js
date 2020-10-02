@@ -14,8 +14,11 @@ const Home = () => {
 				spacing={5}
 				style={{ height: `100vh` }}
 			>
-				<Grid item md={4}>
-					<Typography variant="h1" style={{ lineHeight: `9rem` }}>
+				<Grid item md={5}>
+					<Typography
+						variant="h1"
+						style={{ lineHeight: `9rem`, marginLeft: `30%` }}
+					>
 						Hi, <br /> I am <br />
 						Leo
 					</Typography>

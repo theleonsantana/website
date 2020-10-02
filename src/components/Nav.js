@@ -9,16 +9,31 @@ const NavContainer = styled(`div`)(({ theme }) => ({
 	},
 }));
 
-const Nav = () => {
+const Nav = ({ size }) => {
 	return (
 		<NavContainer>
-			<Link href="/about" color="secondary" variant="body1">
+			<Link
+				href="/about"
+				color="secondary"
+				variant="body1"
+				style={{ fontSize: size }}
+			>
 				About
 			</Link>
-			<Link href="/projects" color="secondary" variant="body1">
+			<Link
+				href="/projects"
+				color="secondary"
+				variant="body1"
+				style={{ fontSize: size }}
+			>
 				Projects
 			</Link>
-			<Link href="#" color="secondary" variant="body1">
+			<Link
+				href="#"
+				color="secondary"
+				variant="body1"
+				style={{ fontSize: size }}
+			>
 				Contact
 			</Link>
 		</NavContainer>
