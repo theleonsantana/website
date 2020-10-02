@@ -41,6 +41,14 @@ const SingleProject = () => {
 							/>
 						</Grid>
 					</Grid>
+					<Link
+						href="#"
+						color="secondary"
+						variant="body1"
+						style={{ marginTop: 25 }}
+					>
+						Visit Project
+					</Link>
 				</Grid>
 			</Grid>
 		</Container>

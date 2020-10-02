@@ -47,7 +47,7 @@ const About = () => {
 					>
 						Development using:
 					</Typography>
-					<Grid item container>
+					<Grid item container spacing={2}>
 						<ListContainer item md>
 							<Typography>JavaScript</Typography>
 							<Typography>TypeScript</Typography>
