@@ -24,7 +24,7 @@ const Home = () => {
 					</Typography>
 				</Grid>
 				<Grid item md={2}>
-					<Nav />
+					<Nav size={25} />
 				</Grid>
 			</Grid>
 		</Container>

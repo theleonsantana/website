@@ -63,9 +63,10 @@ const Theme = createMuiTheme({
 		},
 		h3: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
+			fontSize: `40px`,
 		},
 		body1: {
-			fontSize: 25,
+			fontSize: 20,
 		},
 		body2: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
