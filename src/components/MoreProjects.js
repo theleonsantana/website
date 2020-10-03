@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Grid, Typography, Link, styled } from '@material-ui/core';
-import InnerNav from './InnerNav';
+import { Grid, Typography, Link } from '@material-ui/core';
 
 const MoreProjects = () => {
 	return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Typography, Link, styled } from '@material-ui/core';
+import { Container, Grid, Typography, Link } from '@material-ui/core';
 import InnerNav from './components/InnerNav';
 import MoreProjects from './components/MoreProjects';
 

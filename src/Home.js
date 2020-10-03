@@ -15,13 +15,13 @@ const Home = () => {
 				style={{ height: `100vh` }}
 			>
 				<Grid item md={5}>
-					<Typography
-						variant="h1"
-						style={{ lineHeight: `9rem`, marginLeft: `30%` }}
-					>
+					<Typography variant="h1" style={{ lineHeight: `9rem` }}>
 						Hi, <br /> I am <br />
 						Leo
 					</Typography>
+				</Grid>
+				<Grid item md={5}>
+					<Typography variant="body2">Full Stack Software Engineer</Typography>
 				</Grid>
 				<Grid item md={2}>
 					<Nav size={25} />
