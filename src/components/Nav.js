@@ -1,5 +1,5 @@
 import { Link, styled } from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 
 const NavContainer = styled(`div`)(({ theme }) => ({
 	display: `flex`,
@@ -10,6 +10,11 @@ const NavContainer = styled(`div`)(({ theme }) => ({
 }));
 
 const Nav = ({ size }) => {
+	const [email, setEmail] = useState('');
+
+	const handleCopy = (e) => {
+		setEmail(e.target.getAttribute('data-info'));
+	};
 	return (
 		<NavContainer>
 			<Link
@@ -29,10 +34,11 @@ const Nav = ({ size }) => {
 				Projects
 			</Link>
 			<Link
-				href="#"
+				onClick={handleCopy}
 				color="secondary"
 				variant="body1"
-				style={{ fontSize: size }}
+				style={{ fontSize: size, cursor: `pointer` }}
+				data-info="hi@leonsantana.com"
 			>
 				Contact
 			</Link>
