@@ -1,7 +1,7 @@
 import { Grid, Typography, Container } from '@material-ui/core';
 import React from 'react';
 
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 
 const Home = () => {
 	return (
@@ -22,9 +22,6 @@ const Home = () => {
 				</Grid>
 				<Grid item md={5}>
 					<Typography variant="body2">Full Stack Software Engineer</Typography>
-				</Grid>
-				<Grid item md={2}>
-					<Nav size={25} />
 				</Grid>
 			</Grid>
 		</Container>

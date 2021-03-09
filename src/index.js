@@ -6,9 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import Theme from './Theme';
 
-import './scss/App.scss';
-
-console.log(Theme);
+import './scss/Main.scss';
 
 ReactDOM.render(
 	<React.StrictMode>
