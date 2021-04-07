@@ -1,5 +1,18 @@
 .main-header {
 	background-color: $primary;
 	color: $text-primary;
-	position: fixed;
+	.vertical-header {
+		position: fixed;
+		background: inherit;
+		// width: 200px;
+		padding: 3em 2.5em 0;
+		height: 100%;
+	}
+	.horizontal-nav {
+		position: fixed;
+		background: inherit;
+		width: 100%;
+		height: 20%;
+		bottom: 0;
+	}
 }

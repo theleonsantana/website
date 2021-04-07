@@ -26,7 +26,6 @@ const Theme = createMuiTheme({
 		},
 		body1: {
 			fontFamily: ['DM Serif Display', 'serif'].join(','),
-			fontSize: 20,
 		},
 	},
 });
