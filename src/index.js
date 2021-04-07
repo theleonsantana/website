@@ -8,6 +8,8 @@ import Theme from './Theme';
 
 import './scss/Main.scss';
 
+console.log('dark theme', Theme);
+
 ReactDOM.render(
 	<React.StrictMode>
 		<MuiThemeProvider theme={Theme}>
